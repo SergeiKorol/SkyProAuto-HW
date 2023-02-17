@@ -2,6 +2,6 @@
 def square(a):    
     print(a * a)
 
-a = input('Введите сторона квадрата=')
-a = int(a)
+a = int(input('Введите сторона квадрата='))
+
 square(a)
