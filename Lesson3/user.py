@@ -1,7 +1,21 @@
 class User:
-    def __init__(self, first_name, last_name):
+
+    #first_name = "Ivan"
+    #last_name = "Ivan"
+
+    def __init__(self, _first_name, _last_name):
+        self.first_name = _first_name
+        self.last_name = _last_name
         
-    def print_first_name(self, first_name):
-        print(first_name)
+    def print_first_name(self):
+        print(self.first_name)
+    
+    def print_last_name(self):
+        print(self.last_name)
+    
+    def print_first_name_AND_last_name(self):
+        print(self.first_name, self.last_name)
+
+
 
     
